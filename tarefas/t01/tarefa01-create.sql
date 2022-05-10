@@ -3,19 +3,19 @@ CREATE TABLE funcionario(
   nome VARCHAR(150),
   sexo char(1),
   dt_nasc char(10),
-  salario NUMERIC(10,2),
-  cod_depto INT,
-  
-  FOREIGN KEY (cod_depto) REFERENCES departamento(codigo)
+  salario NUMERIC(10,2)
 );
 
 CREATE TABLE departamento(
+  nome VARCHAR(250),
   codigo INT PRIMARY KEY,
   descricao VARCHAR(250),
   cod_gerente CHAR(10),
   
   FOREIGN KEY (cod_gerente) REFERENCES funcionario(codigo)
 );
+
+ALTER TABLE funcionario add cod_depto INT REFERENCES departamento(codigo);
 
 CREATE TABLE projeto(
   codigo INT PRIMARY KEY, 
@@ -28,7 +28,7 @@ CREATE TABLE projeto(
   
   FOREIGN KEY (cod_depto) REFERENCES departamento(codigo),
   FOREIGN KEY (cod_responsavel) REFERENCES funcionario(codigo)
-)
+);
 
 CREATE TABLE atividade(
   codigo INT PRIMARY KEY,
