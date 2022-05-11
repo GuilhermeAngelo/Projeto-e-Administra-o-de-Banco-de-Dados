@@ -12,4 +12,5 @@ from maior_salario s, funcionario f,departamento d
 where s.salario = f.salario
 order by f.salario;
 
-select nome from resposta;
+select nome from resposta
+;
