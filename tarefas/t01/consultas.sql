@@ -40,7 +40,7 @@ from projeto p left join
  select d.departamento,d.gerente, p.quantidade as quantidade_projeto
  from depto_info d left outer join quantidade p
  on d.codigo = p.codigo;
-
+ 
 -- questão 10
 
 CREATE VIEW projeto_info AS SELECT p.cod_responsavel AS cod_resp,p.nome AS projeto,d.nome AS departamento_projeto
