@@ -8,3 +8,7 @@
 # Link para tarefa01
 
 ###### tarefa01.md: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/tarefa01.md>
+
+# Link para tarefa02
+
+###### tarefa02.md <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/tarefa02.md>
