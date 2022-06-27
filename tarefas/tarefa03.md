@@ -21,3 +21,17 @@ Nós utilizamos um ORM devido a diferença de paradigmas de um banco de dados re
 O Sequelize é um ORM (Mapeamento relacional de objetos) baseado em promessas do Node.js para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server. Possui suporte sólido a transações, relações, carregamento rápido e lento, replicação de leitura e muito mais.
 
 Uma grande coisa sobre o Sequelize é que ele não se importa com seu banco de dados subjacente. Você pode alternar facilmente os bancos de dados ajustando o arquivo de configuração e seu código permanecerá praticamente o mesmo.
+
+### Links para os scripts ODBC
+
+#### Link para a conexão: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/odbc/conection.js>
+#### Link para o insert: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/odbc/inserts.js>
+#### Link para o update: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/odbc/select.js>
+#### LInk para o select: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/odbc/update.js>
+
+### Links para os scripts ORM
+
+#### Link para a conexão: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/ORM/connection_sequelize.js>
+#### Link para o insert: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/ORM/inserts.js>
+#### Link para o update: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/ORM/update.js>
+#### LInk para o select: <https://github.com/GuilhermeAngelo/Projeto-e-Administra-o-de-Banco-de-Dados/blob/master/tarefas/t03/ORM/select.js>
