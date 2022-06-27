@@ -2,10 +2,10 @@
 // conexão relaziada usando funções do modulo pg pg  
 
 module.exports = {
-    dialect: postgres,
+    dialect: "postgres",
     host: "localhost",
     user: "postgres",
     port: 5432,
     password: "postgres",
-    database: "bd-rev"
+    database: "AtividadesBD"
 }

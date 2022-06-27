@@ -13,10 +13,23 @@ const client = new Client({
 client.connect();
 
 // 5 - Use o programa de conexão feito na questão 3, e faça a execução dos seguintes comandos SQL
+
 // a - 
+client.query(`INSERT INTO atividade(descricao,codProjeto, dataInicio, dataFim) 
+values ('BD-Atividade 5',3,'2018-07-26','2018-08-30')`).
+then( results =>{
+    const resultado = results.rows;
+    console.table(resultado);
+}).finally( () => client.end())
 
+// b -
+client.query("UPDATE projeto SET codresponsavel = 3 WHERE projeto.codigo = 3").
+then( results =>{
+    const resultado = results.rows;
+    console.table(resultado);
+}).finally( () => client.end())
 
-// c-
+// c -
 client.query("SELECT p.codigo as codigo_projeto,a.descricao FROM projeto p, atividade a WHERE a.codprojeto = p.codigo").
 then( results =>{
     const resultado = results.rows;
