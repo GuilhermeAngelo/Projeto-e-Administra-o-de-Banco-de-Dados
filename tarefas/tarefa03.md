@@ -14,3 +14,10 @@ const client = new Client({
 client.connect();
 
 Onde por meio de uma nova instância da classe Client podemos criar a conexão desejada informando as opções necessárias.
+
+### Resumo sobre ORM no NODE.JS
+Nós utilizamos um ORM devido a diferença de paradigmas de um banco de dados relacional e da orientação a objetos. Neste caso o Framework ou biblioteca utilizados faz a conciliação e o mapeamento dos dois modelos quase que eliminando a necessidade de ter que utilizar alguma query com código SQL.
+
+O Sequelize é um ORM (Mapeamento relacional de objetos) baseado em promessas do Node.js para Postgres, MySQL, MariaDB, SQLite e Microsoft SQL Server. Possui suporte sólido a transações, relações, carregamento rápido e lento, replicação de leitura e muito mais.
+
+Uma grande coisa sobre o Sequelize é que ele não se importa com seu banco de dados subjacente. Você pode alternar facilmente os bancos de dados ajustando o arquivo de configuração e seu código permanecerá praticamente o mesmo.
