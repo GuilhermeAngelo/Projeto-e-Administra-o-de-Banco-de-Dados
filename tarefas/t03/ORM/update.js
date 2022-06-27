@@ -2,8 +2,8 @@
     const database = require("./connection_sequelize")
     await database.sync()
 
-    const produto = await projeto.findByPk(3);
-    produto.resprojeto = 3;
+    const projeto = await projeto.findByPk(3);
+    projeto.codresponsavel = 3;
  
-const resultadoSave = await produto.save();
+    const resultadoSave = await projeto.save();
 } )()

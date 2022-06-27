@@ -4,9 +4,10 @@
 
     
     const resultadoCreate = await atividade.create({
-    nome: 'mouse',
-    preco: 10,
-    descricao: 'Um mouse USB bonitão'
+    descricao: 'Atividade 44',
+    codProjeto: 1,
+    datainicio: '2018-06-06',
+    datafim: '2019-06-06'
 })
 console.log(resultadoCreate);
 })()
